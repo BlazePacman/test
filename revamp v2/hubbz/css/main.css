@@ -1,0 +1,123 @@
+.center{
+		width: 100%;
+}
+.container1 {
+    float:left;
+    list-style: none;
+    width:20%;
+    height:300px;
+    background: red;
+    margin :20px 0px 20px 55px; 
+    border:2px solid blue;
+    box-sizing: border-box;
+}
+
+.container1 tab1{
+    background: red;
+
+}
+
+.images{
+			width: 100%;
+
+}
+.div1 {
+	   background: red;
+  width: 300px;
+  height: 700px;
+  border: 1px solid black;
+	
+}
+
+
+
+
+.tabbanner h2 {
+	color: white;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 10px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	text-shadow: 1px 1px black;
+	font-family: "Verdana";
+
+}
+.container3 {
+	margin-top: 10px;
+    padding:30px;
+ 	text-align: center;
+	background: red;
+    width: auto;
+	height: auto;
+}
+.container3 img{
+  max-width: 100%;
+	max-height: 100%;
+  height: auto;
+	width: 300px;
+}
+.container3 h3{
+	 display:inline-block;
+	font-size: 1.5vw;
+    margin:0px;
+	font-family: "Verdana";
+text-align: center;
+}
+.container3 h2{
+	color: white;	
+	font-size: 3vw;	
+	text-align: center;
+	padding-left: 50px;
+	padding-top: 10px;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	text-shadow: 1px 1px black;
+	font-family: "Verdana";
+	
+	
+}
+.tabbanner {
+	
+	background: red;
+margin: 10px;
+	text-align: center;
+	
+}
+
+.container2 {
+	margin-top: 10px;
+    padding:30px;
+ 	text-align: center;
+	background: red;
+    width: auto;
+	height: auto;
+	color: red;
+
+}
+
+.container2 img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+  max-width: 100%;
+  height: auto;	
+}
+.container2 h2 {
+	  color: black;
+
+}
+
+.container2 p {
+	  color: black;
+
+}
+
+@media (max-width: 1018px){
+	.container2{
+		
+			    float: center;
+
+	}
+}

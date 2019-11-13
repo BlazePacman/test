@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Event</title>
+	<link rel="shortcut icon" type="image/png" href="fab.png">
+	
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/event2.css">
+	  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+  </head>
+  <body>
+  <div class="header">
+    <h2 class="logo">HIP RADIO</h2>
+    <input type="checkbox" id="chk">
+    <label for="chk" class="show-menu-btn">
+      <i class="fas fa-ellipsis-h"></i>
+    </label>
+
+    <ul class="menu">
+		<a href="home.html">HOME</a>
+     	<a href="shows.html">SHOWS</a>
+        <a href="sched.html">SCHEDULE</a>
+		<a href="djs.html">DJ's</a>
+		<a href="event.html">EVENT</a>
+		<a href="staff.html">STAFF</a>
+		<a href="contact.html">CONTACT</a>
+		<a href="index.html" style="color: red">Portfolio</a>
+		
+      <label for="chk" class="hide-menu-btn">
+        <i class="fas fa-times"></i>
+      </label>
+    </ul>
+  </div>
+<div class="content1" >	
+	<div><img src="images/event.png" alt="logo">
+	</div>
+</div>	
+	
+
+
+<br>
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 4</div>
+    <img src="images/neonbrit1.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 4</div>
+    <img src="images/girltalk5.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 4</div>
+    <img src="images/neon.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 4</div>
+    <img src="images/whiteparty2.jpg" style="width:100%">
+  </div>
+
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="images/neonbrit1.png" style="width:100%" onclick="currentSlide(1)" alt="DAFT PUNK ALBUM RELEASE">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/girltalk5.jpg" style="width:100%" onclick="currentSlide(2)" alt="GIRL TALK">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/neon.png" style="width:100%" onclick="currentSlide(3)" alt="NEON BRIT">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="images/whiteparty2.jpg" style="width:100%" onclick="currentSlide(4)" alt="WHITE PARTY">
+    </div>
+
+  </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+<div class="footer">
+  <p>Copyright 2019  •  For academic purposes only
+</p>
+	<p>Developer: VICTORIO, John Ernest M.</p>
+</div>	  
+  </body>
+</html>

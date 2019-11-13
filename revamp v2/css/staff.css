@@ -1,0 +1,81 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: dimgray;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+
+}
+.content1 img{
+  width: 100%;
+}
+.content{
+	background: white;
+}
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container{
+	height: auto;
+	max-height: 100%;
+	max-width: 100%;
+    padding: 20px;
+	background: white;	
+	text-align: center;
+	margin-top: 10px;
+	float: left;
+}
+
+.img img{
+	max-height: 100%;
+	max-width: 100%;
+	width: 259px;
+	height: auto;
+	float: left;
+}
+.text1{
+	margin-top: 60px;
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 4vw;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: italic;
+font-variant: small-caps;
+text-transform: uppercase;
+}
+.text2{
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 1.8vw;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
+.text3{
+font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size: 1.5vw;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+	margin-bottom: 20px;
+}
+@media screen and (max-width : 1011px ){
+
+}

@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color: dimgray;
+	margin-top: 0px;
+	margin-right: 50px;
+	margin-bottom: 0px;
+	margin-left: 50px;
+
+}
+.content1 img{
+  width: 100%;
+}
+.content{
+	background: white;
+}
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.scolumn{
+  float: left;
+  height: auto;
+  max-height: 100%;/* Should be removed. Only for demonstration */
+}
+.right{
+	background: #BDBDBD;
+  width: 30%;
+	max-width: auto;
+	color: black;
+	
+}
+.left{
+	max-width: auto;
+	text-align: center;
+	background: white;
+    width: 70%;
+	color: red;
+	clear: black;
+
+}
+
+
+.tab1 {
+	text-align: left;
+	padding-left: 20px;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px black;
+	font-family: "Arial Black", Gadget, sans-serif;
+font-size: 38px;
+letter-spacing: -0.4px;
+word-spacing: 2.2px;
+color: #FFFFFF;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+}
+.tab2 {
+	text-align: left;
+	padding-left: 20px;
+	letter-spacing: 2px;
+	text-shadow: 1px 1px black;
+	font-family: "Arial Black", Gadget, sans-serif;
+font-size: 38px;
+letter-spacing: -0.4px;
+color: #FFFFFF;
+font-weight: 400;
+text-decoration: none solid rgb(68, 68, 68);
+font-style: normal;
+font-variant: small-caps;
+text-transform: capitalize;
+}
+.tabbanner {
+	background-color: #2ea99c;
+	max-width: 100%;
+	height: auto;
+	width: auto;
+	max-height: 100%;
+}
+.leftcontent {
+width: 100%;
+height: auto;
+background: #E9E9E9;
+margin-top: 5px;
+}
+.leftcontent img{
+	width: 60%;
+	float: center;
+	margin-top: 20px;
+}
+.text3 p{
+	font-family: "Lucida Console", Monaco, monospace;
+font-size: 5vw;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+}
+
+.text4 p{
+	text-align: center;
+	font-family: "Lucida Console", Monaco, monospace;
+font-size: 35px;
+letter-spacing: 2px;
+word-spacing: 2px;
+color: #000000;
+font-weight: 700;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;
+}
+
+.text1 p{
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 23px;
+letter-spacing: -0.4px;
+word-spacing: 2.2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;	
+padding: 20px;	
+}
+
+
+
+
+
+
+.leftcontent2 {
+    width: 100%;
+	height: auto;
+}
+.leftcontent2 img{
+	width: 80%;
+	float: center;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+
+
+.text2 p{
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+font-size: 23px;
+letter-spacing: -0.4px;
+word-spacing: 2.2px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: small-caps;
+text-transform: none;	
+padding: 20px;	
+	text-align: center;
+}
+@media screen and (max-width : 1011px ){
+
+.scolumn{
+width: 100%;
+margin-top: 0px;
+	}
+	.right{
+	width: 100%;
+	
+	}
+}
+
+
+
+@media (max-width: 738px){
+.text1 p{
+;
+font-size: 2.4vw;
+}	
+.text2 p{
+;
+font-size: 2.4vw;
+}	
+
+}
